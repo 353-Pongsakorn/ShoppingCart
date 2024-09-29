@@ -96,7 +96,7 @@ const products = [
 export default function ShoppingCart() {
   const [cart, setCart] = useState([]);
   const [discountCode, setDiscountCode] = useState("");
-  const [shippingCost] = useState(0);
+  const [shippingCost] = useState(100);
 
   const addToCart = (product) => {
     setCart((prevCart) => {
